@@ -9,7 +9,6 @@ Check that `node --version` and `npm.cmd --version` work before initializing Bro
 
 From the repository root:
 ```powershell
-cd icscards-robotframework
 python -m venv .venv; .\.venv\Scripts\Activate.ps1
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\rfbrowser.exe init
