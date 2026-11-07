@@ -31,6 +31,7 @@ python run_tests.py --no-open-report         # don't open the report (e.g. on CI
 ```
 
 Each run writes Robot Framework's `report.html`, `log.html`, and `output.xml` in this folder. Failed tests capture a screenshot in the log.
+The report background is green regardless of the result; check the status and test details for failures.
 
 ## Layout
 - `tests/home.robot` home-page scenarios

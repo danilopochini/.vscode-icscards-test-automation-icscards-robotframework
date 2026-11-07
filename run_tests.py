@@ -36,6 +36,7 @@ def main() -> int:
         "output": str(project_dir / "output.xml"),
         "log": str(project_dir / "log.html"),
         "report": str(report_path),
+        "reportbackground": "#70d970:#70d970:#70d970",
         "variable": variables,
     }
     if args.smoke:
